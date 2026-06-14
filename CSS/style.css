@@ -1,0 +1,92 @@
+/* *{
+    background-color: rgb(165, 144, 144);
+}
+
+
+h1{
+    color: orange;
+}
+
+p{
+    color: green;
+}
+
+button{
+    background-color: blue;
+    color: red;
+}
+
+.yellow{
+
+    height: 100px;
+    width: 100px;
+    background-color: #FFDE21;
+}
+
+.skyblue{
+
+    height: 100px;
+    width: 100px;
+    background-color: #87CEEB;
+} */
+
+/* 
+
+.center p{
+text-align: center;
+}
+
+
+.justify p{
+text-align: justify;
+} */
+
+/* h1{
+    text-shadow: 20px 20px 1px rgb(205, 8, 8);
+    text-align: center;
+    letter-spacing: 3px;
+} */
+
+/* .check:active{
+    background-color: red;
+
+} */
+
+/* 
+div{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(230, 225, 225);
+
+color: black;
+    margin: auto;
+
+    padding: 2px 100px 4px 3px;
+    
+} */
+
+.outer {
+  height: 500px;
+  width: 120px;
+  margin: auto;
+
+  margin-top: 100px;
+  background-color: black;
+
+
+
+}
+
+#inner{
+
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    background-color: white;
+    margin: auto;
+
+    margin: 30px;
+    margin-top: 20px;
+
+
+}
