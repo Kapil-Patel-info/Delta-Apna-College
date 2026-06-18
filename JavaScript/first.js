@@ -204,8 +204,6 @@
 
 //   let sum = 0;
 
-  
-
 //   for (let i = n; i >= 1; i--) {
 //     sum = i + sum;
 //   }
@@ -222,28 +220,201 @@
 
 // joint("kapil","patel");
 
+// function outer() {
+//     let name = "Kapil";
+
+//     function inner() {
+//         console.log(name);
+//     }
+
+//     inner();
+// }
+
+// outer();
+
+// let str = "abcdabcdefggghz";
+
+// let newstr = "";
+
+// for(let i = 0 ; i<str.length; i++){
+
+//     if(!newstr.includes(str[i])){
+//         newstr += str[i];
+//     }
+
+// }
+
+// console.log(newstr)
+
+// let countries = ["Australia", "United States of America", "Germany"];
+
+// let count = 0;
+// let saveIndex = 0;
+
+// for(let i =0; i< countries.length;i++){
+
+//     if(count <= countries[i].length){
+
+//      count = countries[i].length;
+
+//      saveIndex = countries[i];
+
+//     }
+
+// }
+
+// console.log(count);
+// console.log(saveIndex)
+
+// let str = "kapilaie";
+// let count = 0;
+
+// for (let i = 0; i < str.length; i++) {
+//   if (
+//     str.charAt(i) == "a" ||
+//     str.charAt(i) == "e" ||
+//     str.charAt(i) == "i" ||
+//     str.charAt(i) == "o" ||
+//     str.charAt(i) == "u"
+//   ) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
+
+// let start = 100;
+// let end = 200;
+
+// function generateRandom(start, end) {
+//     let diff = end - start;
+
+//     return Math.floor(Math.random() * diff) + start;
+// }
+
+// console.log(generateRandom(start, end));
+
+// try {
+//     console.log(x);
+// } catch (error) {
+//     console.log("Inside catch");
+// } finally {
+//     console.log("Always runs");
+// }
+
+//   let hello = setInterval(() => {
+//     console.log("hello");
+// }, 1000);
+
+// setTimeout(()=>{
+// clearInterval(hello);
+// console.log("finish ------------------------")
+// },5000)
+
+// let hello = setInterval(() => {
+//     console.log("hello kapil ji")
+// }, 2000);
+
+// setTimeout(()=>{
+//      clearInterval(hello);
+// },5000);
+
+// let isEven = ((n)=>{
+// if(n%2==0){
+//     console.log(`${n} is Even number `);
+// }else{
+//     console.log(`${n} is Odd number `)
+// }
+// });
+
+// console.log(isEven(115));
+
+// const object = {
+//   message: "Hello,World!",
+//   logMessage() {
+//     console.log(this.message);
+//   },
+// };
+
+// setTimeout(object.logMessage,1000);
 
 
-function outer() {
-    let name = "Kapil";
 
-    function inner() {
-        console.log(name);
-    }
+//  let arr = [1,2,3,4,5];
 
-    inner();
-}
-
-outer();
+//  let newarr = arr.map((el)=>el*2);
 
 
 
-let str = "abcdabcdefggghz";
+
+//  let newarr = arr.filter((el)=>el%2==0);
+//  console.log(newarr)
+
+
+//  arr.forEach(el=>{
+// console.log(el*2);
+// })
+
+// console.log([2,4,6,8].every((el)=>el%2==0));
+
+// console.log([2,3,4,6].some((el)=>el%2==0));
+
+// let arr = [1,2,3,4];
+
+// let finalarr = arr.reduce((acc,el)=>acc+el);
+
+// console.log(finalarr);
+
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+
+// let newarr = arr.reduce((max,el)=>{
+//     if(el>max){
+// return el;
+//     }else{
+//         return max;
+//     }
+
+
+// });
+
+// console.log(newarr);
 
 
 
-for(let i = 0 ; i<=str.length; i++){
 
-  
 
-}
+// let a = function (a,b=6){
+// return a + b ;
+// }
+
+// console.log(a(4));
+
+
+
+
+
+
+
+// function sum(...nums) {
+//     return nums.reduce((a, b) => a + b, 0);
+// }
+
+// console.log(sum(1, 2, 3, 4));
+
+
+// let arr =[1,2,3,4];
+
+// let [a,b,c,d] = arr;
+
+
+// console.log(a,b)
+
+// let arr = [1,2,3,4,5];
+
+
+// let newarr = arr.map((el)=>el+5);
+// console.log(newarr);
+
+
