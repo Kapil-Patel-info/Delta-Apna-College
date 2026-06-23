@@ -107,6 +107,28 @@
 
 
 
+// let div = document.querySelector('div');
+// let btn = document.querySelector('button');
+
+// div.addEventListener('click',function(){
+//     console.log("parent clicked");
+// });
+
+// btn.addEventListener('click',function(){
+//     console.log("btn clicked");
+//     event.stopPropagation();
+// });
+
+
+
+
+async function api (){
+
+let api = "/fact"
+
+
+}
+
 
 
 
